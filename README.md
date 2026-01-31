@@ -1,20 +1,304 @@
+# 🛡️ Sentinel Protocol
+
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+**AI That Stops Bad Transactions Before You Sign.**
+
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/aginomoto23/Sentinel)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-19.2-blue)](https://react.dev/)
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 📖 项目简介 / About
 
-View your app in AI Studio: https://ai.studio/apps/drive/154I-Hdp1cOaz1T0k1xjUr2nSbLXa_cqp
+**Sentinel** 是一个基于 AI 的 Web3 交易安全拦截协议，在用户签名之前实时分析智能合约逻辑、资金流向和社会化信号，保护用户资产安全。
 
-## Run Locally
+**Sentinel** is an AI-powered Web3 transaction security interception protocol that analyzes smart contract logic, fund flows, and social signals in real-time before users sign, protecting user assets.
 
-**Prerequisites:**  Node.js
+### 🎯 核心价值 / Core Value
 
+- **预签名拦截**：在交易确认前进行沙盒模拟分析
+- **实时威胁检测**：同步全球 50+ 安全合作伙伴的威胁情报库
+- **隐私优先**：零知识架构，仅分析交易数据，不触碰用户身份
+- **多链支持**：兼容主流钱包（MetaMask、Rabbit、Rainbow、WalletConnect）
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## ✨ 核心功能 / Features
+
+### 🔍 交易预执行拦截
+Sentinel 驻守在 dApp 与钱包之间，在沙盒环境中模拟每一笔交易的执行结果，在您确认前发现隐患。
+
+### 🌐 全球威胁情报库
+与 50+ 安全合作伙伴及社区举报数据实时同步，构建强大的防御网络。
+
+### 🔒 隐私至上架构
+零知识证明设计。我们仅分析交易代码与数据，绝不触碰您的身份隐私。
+
+### 📊 风险评分系统
+基于多维度信号分析，提供精准的风险评分和详细的分析报告。
+
+---
+
+## 🛠️ 技术栈 / Tech Stack
+
+- **前端框架**: React 19.2 + TypeScript 5.8
+- **构建工具**: Vite 6.2
+- **路由**: React Router DOM 7.13
+- **动画**: Framer Motion 12.29
+- **UI 组件**: Lucide React Icons
+- **状态管理**: Zustand (AppStore)
+- **样式**: Tailwind CSS (内联样式)
+
+---
+
+## 🚀 项目当前阶段 / Current Status
+
+### Version 1.0 - Alpha 阶段
+
+**当前状态**：
+- ✅ 核心 UI 框架已完成
+- ✅ 钱包连接功能已实现
+- ✅ 交易模拟界面已开发
+- ✅ 风险分析模态框已构建
+- ✅ 多语言支持（中英文）
+- 🔄 后端 API 集成中
+- 🔄 智能合约分析引擎开发中
+- 🔄 威胁情报数据库对接中
+
+**下一步计划**：
+- 完善交易分析算法
+- 集成更多区块链网络
+- 构建社区驱动的威胁标记系统
+- 优化用户体验和性能
+
+---
+
+## 🤝 寻求共同构建者 / Looking for Co-Builders
+
+Sentinel 是一个开放的项目，我们欢迎所有对 Web3 安全感兴趣的开发者、安全研究员和社区成员参与共建。
+
+### 🎯 我们需要的帮助
+
+1. **后端开发**
+   - 交易分析引擎优化
+   - 威胁情报数据库设计
+   - API 服务架构
+
+2. **安全研究**
+   - 智能合约漏洞检测算法
+   - 钓鱼网站识别机制
+   - 恶意地址模式分析
+
+3. **前端开发**
+   - UI/UX 优化
+   - 性能优化
+   - 新功能开发
+
+4. **测试与质量保证**
+   - 单元测试编写
+   - 集成测试
+   - 安全审计
+
+5. **文档与社区**
+   - 技术文档完善
+   - 用户指南编写
+   - 社区运营
+
+### 💡 如何参与
+
+1. **Fork 本项目**
+2. **创建功能分支** (`git checkout -b feature/AmazingFeature`)
+3. **提交更改** (`git commit -m 'Add some AmazingFeature'`)
+4. **推送到分支** (`git push origin feature/AmazingFeature`)
+5. **开启 Pull Request**
+
+或者直接通过以下方式联系我们：
+- 📧 Email: [待补充]
+- 🐦 Twitter: [@aweijing](https://x.com/aweijing)
+- 💬 GitHub Issues: [提交问题或建议](https://github.com/aginomoto23/Sentinel/issues)
+
+---
+
+## 🌟 关于 AIGC-DAO / About AIGC-DAO
+
+**AIGC-DAO** 是一个专注于 AI 生成内容（AIGC）和去中心化自治组织（DAO）治理的创新社区。我们致力于：
+
+- 🤖 **AI 技术创新**：推动 AI 在 Web3 领域的应用
+- 🌐 **去中心化协作**：通过 DAO 模式实现社区自治
+- 🛡️ **安全优先**：构建更安全的 Web3 生态
+- 🌍 **开放共建**：欢迎所有志同道合的开发者加入
+
+Sentinel 是 AIGC-DAO 在 Web3 安全领域的重要实践，我们希望通过开源协作的方式，共同构建一个更安全、更可信的 Web3 未来。
+
+**了解更多**：
+- 官方网站：[待补充]
+- 社区论坛：[待补充]
+- 官方 Twitter：[待补充]
+
+---
+
+## 📦 安装与运行 / Installation & Run
+
+### 前置要求 / Prerequisites
+
+- Node.js >= 18.0.0
+- npm 或 yarn 或 pnpm
+
+### 安装步骤 / Installation Steps
+
+1. **克隆仓库**
+```bash
+git clone https://github.com/aginomoto23/Sentinel.git
+cd Sentinel
+```
+
+2. **安装依赖**
+```bash
+npm install
+# 或
+yarn install
+# 或
+pnpm install
+```
+
+3. **配置环境变量**（如需要）
+创建 `.env.local` 文件：
+```env
+# API Keys (如需要)
+# GEMINI_API_KEY=your_api_key_here
+```
+
+4. **启动开发服务器**
+```bash
+npm run dev
+# 或
+yarn dev
+# 或
+pnpm dev
+```
+
+5. **构建生产版本**
+```bash
+npm run build
+# 或
+yarn build
+# 或
+pnpm build
+```
+
+6. **预览生产构建**
+```bash
+npm run preview
+# 或
+yarn preview
+# 或
+pnpm preview
+```
+
+应用将在 `http://localhost:5173` 启动（Vite 默认端口）。
+
+---
+
+## 📁 项目结构 / Project Structure
+
+```
+sentinel/
+├── components/          # React 组件
+│   ├── layout/         # 布局组件
+│   ├── modals/         # 模态框组件
+│   └── ui/             # UI 基础组件
+├── features/           # 功能模块
+│   └── risk/           # 风险分析相关
+├── lib/                # 工具库
+│   ├── agentMock.ts    # 模拟代理
+│   ├── i18n.ts         # 国际化
+│   └── storage.ts      # 存储工具
+├── pages/              # 页面组件
+│   ├── Dashboard.tsx   # 仪表盘
+│   ├── Simulate.tsx    # 交易模拟
+│   ├── Check.tsx       # 地址检查
+│   ├── Mark.tsx        # 标记管理
+│   ├── Settings.tsx    # 设置
+│   ├── Landing.tsx     # 落地页
+│   └── Documentation.tsx # 文档
+├── store/              # 状态管理
+│   └── AppStore.tsx    # 应用状态
+├── styles/             # 样式文件
+├── App.tsx             # 应用入口
+├── index.tsx           # 入口文件
+├── types.ts            # TypeScript 类型定义
+└── constants.ts        # 常量定义
+```
+
+---
+
+## 🧪 开发指南 / Development Guide
+
+### 代码规范
+
+- 使用 TypeScript 进行类型检查
+- 遵循 React Hooks 最佳实践
+- 组件使用函数式组件
+- 使用 ESLint 和 Prettier 保持代码风格一致
+
+### 提交规范
+
+提交信息请遵循以下格式：
+```
+<type>(<scope>): <subject>
+
+<body>
+
+<footer>
+```
+
+类型（type）：
+- `feat`: 新功能
+- `fix`: 修复 bug
+- `docs`: 文档更新
+- `style`: 代码格式调整
+- `refactor`: 代码重构
+- `test`: 测试相关
+- `chore`: 构建/工具链相关
+
+---
+
+## 📝 许可证 / License
+
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+
+---
+
+## 🙏 致谢 / Acknowledgments
+
+感谢所有为 Sentinel 项目做出贡献的开发者和社区成员！
+
+特别感谢：
+- AIGC-DAO 社区的支持
+- 所有参与测试和反馈的用户
+- 开源社区提供的优秀工具和库
+
+---
+
+## 📞 联系我们 / Contact
+
+- **项目维护者**: [@aginomoto23](https://github.com/aginomoto23)
+- **Twitter**: [@aweijing](https://x.com/aweijing)
+- **GitHub**: [https://github.com/aginomoto23/Sentinel](https://github.com/aginomoto23/Sentinel)
+
+---
+
+<div align="center">
+
+**⭐ 如果这个项目对你有帮助，请给我们一个 Star！**
+
+**⭐ If this project helps you, please give us a Star!**
+
+Made with ❤️ by AIGC-DAO Community
+
+</div>
