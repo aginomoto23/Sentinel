@@ -118,7 +118,7 @@ Sentinel 是一个开放的项目，我们欢迎所有对 Web3 安全感兴趣�
 5. **开启 Pull Request**
 
 或者直接通过以下方式联系我们：
-- 📧 Email: [待补充]
+- 📧 Email: [team@aigc-dao.com]
 - 🐦 Twitter: [@aweijing](https://x.com/aweijing)
 - 💬 GitHub Issues: [提交问题或建议](https://github.com/aginomoto23/Sentinel/issues)
 
@@ -140,12 +140,11 @@ AIGC-DAO 专注于三个核心方向：
 
 Sentinel 是 AIGC-DAO 在 Web3 安全领域的重要实践项目。我们相信，通过 AI 技术的赋能，可以构建更智能、更主动的安全防护机制，让 Web3 用户能够更安全地参与去中心化生态。
 
-AIGC-DAO 不仅是一个技术社区，更是一个开放协作的创新平台。我们欢迎所有对 AI、Web3、安全技术感兴趣的开发者、研究者和社区成员加入，共同推动 Web3 生态的繁荣发展。
+AIGC-DAO 不仅是一个DAO社区，更是一个开放协作的创新平台。我们欢迎所有对 AI、Web3、安全技术感兴趣的开发者、研究者和社区成员加入，共同推动 Web3 生态的繁荣发展。
 
 ### 🔗 了解更多 / Learn More
 
 - **官方网站**：[www.aigc-dao.com](https://www.aigc-dao.com)
-- **GitHub 组织**：[查看我们的其他项目](https://github.com/aginomoto23)
 - **Twitter**：[@aweijing](https://x.com/aweijing)
 - **项目合作**：通过 GitHub Issues 或邮件联系我们
 
